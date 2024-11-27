@@ -509,11 +509,11 @@ a {
   color: none;
 }
 
-.time-coffee, .Confeitaria-colombo, .artista-angelina, .formulario, .vago2, .vago3 {
+.time-coffee, .Confeitaria-colombo, .artista-angelina, .formulario, .menu-hamburguer, .vago3 {
   border-radius: 5px;
 }
 
-.time-coffee-titulo, .confeitaria-colombo-titulo, .artista-angelina-titulo, .formulario-titulo, .vago2-titulo, .vago3-titulo {
+.time-coffee-titulo, .confeitaria-colombo-titulo, .artista-angelina-titulo, .formulario-titulo, .menu-hamburguer-titulo, .vago3-titulo {
   font-weight: 600;
   font-family: "Gantari", sans-serif;
   color: #363636;  
@@ -521,7 +521,7 @@ a {
   margin: 10px 0px 5px 0px;
 }
 
-.time-coffee-descrição, .confeitaria-colombo-descrição, .artista-angelina-descrição, .formulario-descrição, .vago2-descrição, .vago3-descrição {
+.time-coffee-descrição, .confeitaria-colombo-descrição, .artista-angelina-descrição, .formulario-descrição, .menu-hamburguer-descrição, .vago3-descrição {
   padding: 0px;
   margin: 0px 0px 10px;
   color: black;

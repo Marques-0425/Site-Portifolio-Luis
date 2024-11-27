@@ -307,7 +307,7 @@ a {
   border-radius: 5px;
 }
 
-.time-coffee-titulo, .confeitaria-colombo-titulo, .artista-angelina-titulo, .forumlario-titulo1, .vago-pessoal-titulo2, .vago-pessoal-titulo3 {
+.time-coffee-titulo, .confeitaria-colombo-titulo, .artista-angelina-titulo, .forumlario-titulo, .menu-hamburguer-titulo, .vago-pessoal-titulo3 {
   font-weight: 600;
   font-family: "Gantari", sans-serif;
   color: #363636;  
@@ -315,7 +315,7 @@ a {
   margin: 10px 0px 5px 0px;
 }
 
-.time-coffee-descricao, .confeitaria-colombo-descricao, .artista-angelina-descricao, .forumlario-descricao1, .vago-pessoal-descricao2, .vago-pessoal-descricao3 {
+.time-coffee-descricao, .confeitaria-colombo-descricao, .artista-angelina-descricao, .forumlario-descricao, .menu-hamburguer-descricao, .vago-pessoal-descricao3 {
   padding: 0px;
   margin: 0px 0px 10px;
   color: black;
