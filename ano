@@ -1,0 +1,44 @@
+.fundo {
+  background-color: #ff0000;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+ <img src="https://yt3.googleusercontent.com/mJ9hsjWHRHspAPUvx47u28ORfbJdCF-9CmWGdkRTeK6UhhJNtHeCl1OI5xnp81Tv6fQzBKp6=s160-c-k-c0x00ffffff-no-rj" class="foto">
+
+  https://www.linkedin.com/in/luis-octavio-marques-siqueira-2a13332ab/
+
+  font-family: monospace
+
+  <a href="https://www.linkedin.com/in/luis-octavio-marques-siqueira-2a13332ab/" target="_blank">
+    <img src="icons8-linkedin (1).svg" width="50" height="50" class="linkedin"></a>
+   <img src="icons8-indeed.svg" width="50" height="50" class="indeed">
+
+   .indeed {
+     padding: 0px 5px;
+     position: relative;
+     right: 10px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     transition: transform 0.3s ease, filter 0.3s ease;
+   }
+
+   .indeed:hover {
+     transform: scale(1.1);
+     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+     filter: brightness(0.7);
+   }
+
+   .linkedin {
+     padding: 0px 5px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+     transition: transform 0.3s ease, filter 0.3s ease;
+   }
+
+   .linkedin:hover {
+     transform: scale(1.1);
+     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+     filter: brightness(0.7);
+   }

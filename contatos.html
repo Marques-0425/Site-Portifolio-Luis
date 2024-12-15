@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Luís Octávio - Contatos </title>
+  <link rel="stylesheet" href="contatos.css"/>
+  <script src="contatos.js" defer></script>
+  <php src="contatos.php"> </php>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+ </head>
+<body>
+  <header>
+    <div class="cabecario">
+      <div class="container-logo">
+        <img src="LOFE - Preto.png" 
+        width="50" height="50" class="logo">
+        <p class="desenvolvedor">Desenvolvedor<br>Front-End </p>
+      </div>
+      <section>
+        <nav class="nav-desktop" id="nav-desktop">
+          <a class="inicio-desktop" href=
+          "index.html"> Início </a>
+          <a class="portifolio-desktop" href=
+          "portifolio.html"> Portifólio </a>
+          <a class="contato-desktop" href=
+          "contatos.html"> Contatos </a>
+        </nav>
+      </section>
+      <div class="btmenumobile" id="btmenumobile">
+        <div class="barras">
+          <p class="barra1">  </p>
+          <p class="barra2">  </p>
+          <p class="barra3">  </p>
+        </div>
+      </div>
+      <section>
+        <nav  class="nav-mobile" id="nav-mobile">
+          <ul>
+            <a class="inicio-mobile" href=
+            "index.html"> Início </a>
+            <a class="portifolio-mobile" href=
+            "portifolio.html"> Portifólio </a>
+            <a class="contato-mobile" href=
+            "contatos.html"> Contatos </a>
+          </ul>
+        </nav>
+      </section>
+    </div>
+   </header>
+  <aside>
+    <div class="secao1">
+      <img src="Texto do seu parágrafo.png" class="foto-minha2" height="400" width="400">
+      <div class="redes">
+        <h1 class="encontre"> Me Econtre: </h1>
+        <h2 class="contatar"> Sinta-se à vontade para me contatar pelas redes sociais ou enviar um <br> e-mail diretamente. </h2>
+        <div class="minhas-redes">
+          <div class="meu-linkedin" id="meu-linkedin">
+            <a href="https://www.linkedin.com/in/luis-octavio-marques-siqueira-2a13332ab/">
+              <img src="icons8-linkedin-100.png" 
+              class="linkedin-imagem"width="60"height="60"> </a>
+              <p class="linkedin-texto"> Meu Linkedin </p>
+            </a>
+          </div>
+          <div class="meu-github" id="meu-github">
+            <a href="https://github.com/Marques-0425">
+              <img src="icons8-github-100.png"
+              class="github-imagem" width="60" height="60"> </a>
+              <p class="github-texto"> Meu Github </p>
+          </div>
+          <div class="meu-indeed" id="meu-indeed">
+            <a href="https://profile.indeed.com/?hl=pt_BR&co=BR&from=gnav-homepage">
+             <img src="icons8-indeed-96.png" 
+              class="indeed-imagem" width="60" height="60"> </a>
+              <p class="indeed-texto"> Meu Indeed </p>
+          </div>
+          <div class="meu-gmail" id="meu-gmail">
+            <img src="icons8-gmail-100.png" 
+            class="gmail-imagem"
+            id="gmail-imagem"
+            width="60" height="60">
+            <p class="gmail-texto"> Meu Gmail </p>
+            <div id="tooltip" class="tooltip-dinamico"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </aside>
+  <aside>
+    <div class="secao2">
+      <h1 class="mande"> Mande uma mensagem </h1>
+      <h2 class="detalhes"> Quer dar mais detalhes do projeto? Envie sua mensagem e vamos conversar sobre como transformar suas ideias em realidade. Estou sempre pronto para ajudar você a dar vida ao seu próximo site. 🚀 </h2>
+      <div class="form-container">
+        <form action="/enviar-email" method="POST" class="form">
+            <div class="mensagem">
+               <label for="message">Mensagem</label>
+               <textarea name="message" id="message" required></textarea>
+            </div>
+            <div class="nome-email">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <button class="envio" type="submit">Enviar</button>
+            </div>
+            <input type="hidden" name="_captcha" value="false" />
+        </form>
+    </div>
+    </div>
+   </aside>
+  <footer>
+    <div class="rodape">
+      <a class="inicio-footer" href=
+      "index.html"> Início </a>
+      <a class="portifolio-footer" href=
+      "portifolio.html"> Portifólio </a>
+      <a class="contato-footer" href=
+      "contatos.html"> Contatos </a> 
+    </div>
+    <div class="textos-footer">
+      <p class="texto-footer1"> Transformando ideias em código, um pixel de cada vez. </p> 
+      <p class="texto-footer2"> © 2024 Luís Octávio Marques Siqueira </p>
+    </div>
+    <div class="botaoparacima">
+      <button id="rolagemparaoinicio" class="rolagemparaoinicio"> Voltar ao Início </button>
+    </div>
+   </footer>
+</body>
+</html>
+
